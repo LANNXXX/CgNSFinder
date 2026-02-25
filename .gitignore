@@ -1,0 +1,46 @@
+# ------ Python ------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ------ 虚拟环境 ------
+.venv/
+venv/
+env/
+ENV/
+
+# ------ 数据文件（体积较大，不入库）------
+datas/*.fna
+datas/*.fa
+datas/*.fasta
+datas/*.gbk
+datas/*.gb
+
+# ------ 脚本输出结果 ------
+*.xlsx
+*.csv
+
+# ------ Jupyter ------
+.ipynb_checkpoints/
+*.ipynb
+
+# ------ IDE / 编辑器 ------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ------ macOS ------
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ------ 日志 ------
+*.log
